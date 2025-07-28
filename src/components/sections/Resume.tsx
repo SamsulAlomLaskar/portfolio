@@ -32,10 +32,10 @@ export default function Resume() {
   const [isLoading, setIsLoading] = useState(true);
   const [pdfError, setPdfError] = useState(false);
 
-  const resumeUrl = "./public/Samsul_Alom_Laskar.pdf";
+  const resumeUrl = "/portfolio/Samsul_Alom_Laskar.pdf";
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 2000);
+    const timer = setTimeout(() => setIsLoading(false), 1000);
     return () => clearTimeout(timer);
   }, []);
 
