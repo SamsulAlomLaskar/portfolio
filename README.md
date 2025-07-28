@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Features a clean design, smooth animations, and seamless user experience across all devices.
 
-![Portfolio Preview](https://via.placeholder.com/800x400/3B82F6/FFFFFF?text=Portfolio+Preview)
+![Portfolio Preview](https://samsulalomlaskar.github.io/portfolio/)
 
 ## ✨ Features
 
@@ -36,7 +36,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/yourusername/react-portfolio.git
+   git clone https://github.com/samsulalomlasakr/portfolio.git
    cd react-portfolio
    \`\`\`
 
@@ -106,18 +106,6 @@ Place your resume PDF in `public/resume.pdf` or update the path in `src/componen
 4. Get your Service ID, Template ID, and Public Key
 5. Update your `.env` file with these credentials
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to [Vercel](https://vercel.com)
-3. Add environment variables in Vercel dashboard
-4. Deploy automatically on every push
-
-### Netlify
-1. Build the project: `npm run build`
-2. Upload the `dist` folder to [Netlify](https://netlify.com)
-3. Configure environment variables in Netlify dashboard
 
 ### Manual Deployment
 npm run build
@@ -140,10 +128,6 @@ npm run build
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - [React](https://reactjs.org/) - UI Library
@@ -154,11 +138,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Your Name** - [your.email@example.com](mailto:your.email@example.com)
+**Samsul Alom Laskar** - [itsmesamsulalom@gmail.com](mailto:itsmesamsulalom@gmail.com)
 
-Project Link: [https://github.com/yourusername/react-portfolio](https://github.com/yourusername/react-portfolio)
+Project Link: [https://github.com/samsulalomlaskar/portfolio](https://github.com/samsulalomlaskar/portfolio)
 
-Live Demo: [https://yourportfolio.vercel.app](https://yourportfolio.vercel.app)
+Live Demo: [https://samsulalomlaskar.github.io/portfolio/](https://samsulalomlaskar.github.io/portfolio/)
 
 ---
 
