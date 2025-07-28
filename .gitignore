@@ -31,9 +31,6 @@ node_modules/
 
 
 # Project specific
-# Resume files (keep private)
-public/Samsul_Alom_Laskar.pdf
-public/samsul.jpg
 
 # Email service keys (already in .env but extra safety)
 emailjs-keys.json
