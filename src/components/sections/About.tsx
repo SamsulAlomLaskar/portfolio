@@ -164,7 +164,7 @@ export default function About() {
             {/* Reduced image size */}
             <div className="flex justify-center">
               <img
-                src="/portfolio/samsul.jpg"
+                src={`${import.meta.env.BASE_URL}samsul.jpg`}
                 alt="Samsul - Full Stack Developer"
                 className="w-82 h-82 object-cover rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300"
               />
