@@ -12,37 +12,48 @@ export default function Projects() {
 
   const projects = [
     {
-      id: "ecommerce",
-      title: "E-Commerce Platform",
+      id: "dashboard",
+      title: "Github Dashboard",
       description:
-        "A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
+        "A responsive React + TypeScript web app that allows users to search GitHub repositories, explore user profiles, and visualize issues in a Kanban-style board.",
       image:
-        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "https://github.com",
-      live: "https://example.com",
-    },
-    {
-      id: "social",
-      title: "Social Media Dashboard",
-      description:
-        "Real-time social media analytics dashboard with data visualization and automated reporting features.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-      technologies: ["React", "Express", "PostgreSQL", "Chart.js"],
-      github: "https://github.com",
-      live: "https://example.com",
+        "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=2088&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      technologies: ["React", "Node.js", "TypeScript", "Redux"],
+      github: "https://github.com/SamsulAlomLaskar/github-dashboard",
+      live: "https://gthb-search.netlify.app/",
     },
     {
       id: "task",
       title: "Task Management App",
       description:
-        "Collaborative task management application with real-time updates and team collaboration features.",
+        "A modern, responsive portfolio built using React, TypeScript, Vite, and Tailwind CSS. The site showcases personal projects, skills, and experience with a clean UI and smooth navigation.",
       image:
         "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
       technologies: ["React.js", "TypeScript", "Material UI (MUI)", "CSS"],
       github: "https://github.com/samsulalomlaskar/task-management",
       live: "https://task-mngmnt.netlify.app/",
+    },
+    {
+      id: "flow",
+      title: "React Flow",
+      description:
+        "Built a modular visual flow builder using React 19 and React Flow. Users can drag and drop custom nodes, edit their properties via a settings panel, and organize flows with a smooth, responsive UI. Styled with clean CSS modules for consistency.",
+      image:
+        "https://images.unsplash.com/photo-1646617747563-4f080bddf282?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      technologies: ["React", "Typescript", "React Flow", "Tailwind CSS"],
+      github: "https://github.com/SamsulAlomLaskar/bitespeed",
+      live: "https://samsulalomlaskar.github.io/bitespeed/",
+    },
+    {
+      id: "game",
+      title: "Dice Game",
+      description:
+        "A two-player dice game using HTML, CSS, and JavaScript. Players roll dice, and the game displays the winner based on random rolls. Features simple UI, DOM manipulation, and responsive design.",
+      image:
+        "https://images.unsplash.com/photo-1581788927061-ac0e09850ed0?q=80&w=1268&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      technologies: ["HTML", "CSS", "Javascript"],
+      github: "https://github.com/SamsulAlomLaskar/dice-game",
+      live: "https://dicegamebysamsul.netlify.app/",
     },
   ];
 
