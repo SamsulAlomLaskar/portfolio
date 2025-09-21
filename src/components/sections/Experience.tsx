@@ -12,8 +12,8 @@ export default function Experience() {
       company: "To The New",
       location: "Noida",
       period: "2025 - Present",
-      description: "N/A",
-      achievements: ["IN PROGRESS"],
+      description: "Work In Progress",
+      achievements: ["Work In Progress"],
 
       technologies: [
         "Node.js",

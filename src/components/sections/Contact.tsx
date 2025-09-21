@@ -41,7 +41,7 @@ export default function Contact() {
   const [countdown, setCountdown] = useState(5); // 5 second countdown
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 3000);
+    const timer = setTimeout(() => setIsLoading(false), 800);
     return () => clearTimeout(timer);
   }, []);
 
