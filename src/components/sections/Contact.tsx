@@ -255,7 +255,7 @@ export default function Contact() {
                 {
                   icon: MapPin,
                   label: "Location",
-                  value: "Bengaluru - 29",
+                  value: "Noida",
                   href: "#",
                 },
               ].map((info, index) => (

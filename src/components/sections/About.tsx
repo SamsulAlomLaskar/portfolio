@@ -213,7 +213,7 @@ export default function About() {
             >
               <MapPin className="h-5 w-5 mr-2 text-purple-500" />
               <span className={isDark ? "text-gray-300" : "text-gray-600"}>
-                Bengaluru - 29
+                Noida
               </span>
               <img
                 src="https://flagcdn.com/w20/in.png"

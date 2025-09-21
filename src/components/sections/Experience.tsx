@@ -8,10 +8,31 @@ export default function Experience() {
   const experiences = [
     {
       id: 1,
+      title: "Senior Software Engineer",
+      company: "To The New",
+      location: "Noida",
+      period: "2025 - Present",
+      description: "N/A",
+      achievements: ["IN PROGRESS"],
+
+      technologies: [
+        "Node.js",
+        "React.js",
+        "MongoDB",
+        "PostgreSQL",
+        "SQL",
+        "AWS S3",
+        "Next.js",
+        "Express.js",
+        "TypeScript",
+      ],
+    },
+    {
+      id: 2,
       title: "Software Engineer",
       company: "NEC Corporation",
       location: "Bengaluru",
-      period: "2024 - Present",
+      period: "2024 - 2025",
       description:
         "Troubleshot and debugged full-stack applications built with Node.js and React.js, ensuring smooth workflow and efficient resolution of complex issues. Collaborated with cross-functional teams and leveraged logs and data validation for root cause analysis and reliable fixes.",
       achievements: [
@@ -35,7 +56,7 @@ export default function Experience() {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "Software Engineer",
       company: "Techwise Digital",
       location: "Bengaluru",
@@ -61,7 +82,7 @@ export default function Experience() {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "Associate Software Engineer",
       company: "Testyantra Software Solutions",
       location: "Bengaluru",
